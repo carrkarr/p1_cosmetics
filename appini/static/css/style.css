@@ -2322,8 +2322,10 @@ ul.social_icon li {
 }
 
 #map {
+	
     height: 100%;
-    min-height: 830px;
+	min-height: 830px;
+	
 }
 
 .blog_img_popular {
@@ -2657,22 +2659,24 @@ ul.bottom_menu li {
 }
 
 .contact_section {
-
+    /*
     background-image: url("../images/contact_bg.png");
-    background-size: 50% auto;
+	background-size: 50% auto;
+	
     background-repeat: no-repeat;
     background-position: right center;
-
+*/
 }
 
 .contact_form {
     background: #fff;
     background-size: cover;
-    background-position: center center;
+	background-position: center center;
+	
     min-height: auto;
     padding: 45px 65px 65px;
     max-width: 770px;
-    margin: 142px 0;
+	margin: 142px 0;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 

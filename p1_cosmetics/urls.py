@@ -20,7 +20,7 @@ from appini import views
 
 urlpatterns = [
 url(r'^appini/', include('appini.urls')),
-path(r'^sendwatt/$', views.sendwatt),
+#path(r'^sendwatt/$', views.sendwatt),
 path('admin/', admin.site.urls),
 ]
 

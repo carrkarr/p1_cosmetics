@@ -16,7 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include, url
+from appini import views
+
 urlpatterns = [
 url(r'^appini/', include('appini.urls')),
+path(r'^sendwatt/$', views.sendwatt),
 path('admin/', admin.site.urls),
 ]
+
